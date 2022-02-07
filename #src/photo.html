@@ -13,28 +13,28 @@
 
   <body class="body">
     <div class="body-wrapper">
-      <header class="page-header">
+      <header class="page-header page-header--portfolio">
         <a class="page-header__logo" href="index.html">
-          <img class="page-header__logo-image" src="img/logotype-mobile.svg.png" width="230" height="30" alt="Барбершоп - Бородинский" />
+          <!-- <img class="page-header__logo-image" src="img/logotype-mobile.svg.png" width="230" height="30" alt="Барбершоп - Бородинский" /> -->
         </a>
         <nav class="main-nav">
           <button class="main-nav__toggle" type="button">Открыть меню</button>
           <div class="main-nav__wrapper">
             <ul class="main-nav__list site-list">
               <li class="site-list__item site-list__item--active">
-                <a>ГЛАВНАЯ</a>
+                <a href="index.html">ГЛАВНАЯ</a>
               </li>
               <li class="site-list__item">
-                <a href="photo.html">Наши работы</a>
+                <a href="photo.html">НАШИ РАБОТЫ</a>
               </li>
               <li class="site-list__item">
-                <a href="form.html">Записаться</a>
+                <a href="form.html">ЗАПИСАТЬСЯ</a>
               </li>
               <li class="site-list__item">
-                <a href="#">Контакты</a>
+                <a href="#">КОНТАКТЫ</a>
               </li>
               <li class="site-list__item">
-                <a href="#">HTML Academy</a>
+                <a href="#">HTML ACADEMY</a>
               </li>
             </ul>
             <ul class="main-nav__list user-list">
@@ -48,43 +48,49 @@
       <main class="page-main">
         <div class="portfolio__wrapper">
           <section class="portfolio">
-            <div class="portfolio__petr">
+            <div class="portfolio__petr portfolio__item">
               <img class="portfolio__img-1" src="img/photo-1-mobile.jpg" alt="Работа месяца" width="280" height="480" />
-              <div class="portfolio__petr-month-work">
-                РАБОТА МЕСЯЦА
+              <div class="portfolio__petr-month-work">РАБОТА МЕСЯЦА</div>
+              <div class="portfolio-description__container">
+                <b class="portfolio__name">Лжепётр Мчиславский</b>
+                <p class="portfolio__review">Где я только не стригся, но так как делаете это вы — не умеет никто другой! Еще раз спасибо и до скорого!</p>
+                <ul class="portfolio__list">
+                  <li class="portfolio__options"><span class="portfolio__options--img-scissors"></span> СТРИЖКА</li>
+                  <li class="portfolio__options"><span class="portfolio__options--img-beard"></span> БОРОДА</li>
+                  <li class="portfolio__options"><span class="portfolio__options--img-mustache"></span> УСЫ</li>
+                </ul>
               </div>
-              <b class="portfolio__name">Лжепётр Мчиславский</b>
-              <p class="portfolio__review">Где я только не стригся, но так как делаете это вы — не умеет никто другой! Еще раз спасибо и до скорого!</p>
-              <ul class="portfolio__list">
-                <li class="portfolio__options"><span class="portfolio__options--img-scissors"></span> СТРИЖКА</li>
-                <li class="portfolio__options"><span class="portfolio__options--img-beard"></span> БОРОДА</li>
-                <li class="portfolio__options"><span class="portfolio__options--img-mustache"></span> УСЫ</li>
-              </ul>
             </div>
-            <div class="portfolio__alex">
+            <div class="portfolio__alex portfolio__item">
               <img class="portfolio__img-2" src="img/photo-2-mobile.jpg" alt="Фото стрижки" width="280" height="176" />
-              <b class="portfolio__name">Саша Мальцев</b>
-              <p class="portfolio__review">Попросил омолодить и омолодили! Кто теперь скажет, что мне 45?</p>
-              <ul class="portfolio__list">
-                <li class="portfolio__options"><span class="portfolio__options--img-scissors"></span> СТРИЖКА</li>
-              </ul>
+              <div class="portfolio-description__container">
+                <b class="portfolio__name">Саша Мальцев</b>
+                <p class="portfolio__review">Попросил омолодить и омолодили! Кто теперь скажет, что мне 45?</p>
+                <ul class="portfolio__list">
+                  <li class="portfolio__options"><span class="portfolio__options--img-scissors"></span> СТРИЖКА</li>
+                </ul>
+              </div>
             </div>
-            <div class="portfolio__vova">
+            <div class="portfolio__vova portfolio__item">
               <img class="portfolio__img-3" src="img/photo-3-mobile.jpg" alt="Фото стрижки" width="280" height="176" />
-              <b class="portfolio__name">Владимир Иваныч</b>
-              <p class="portfolio__review">К зимнему сезону — готов!</p>
-              <ul class="portfolio__list">
-                <li class="portfolio__options"><span class="portfolio__options--img-beard"></span> БОРОДА</li>
-                <li class="portfolio__options"><span class="portfolio__options--img-mustache"></span> УСЫ</li>
-              </ul>
+              <div class="portfolio-description__container">
+                <b class="portfolio__name">Владимир Иваныч</b>
+                <p class="portfolio__review">К зимнему сезону — готов!</p>
+                <ul class="portfolio__list">
+                  <li class="portfolio__options"><span class="portfolio__options--img-beard"></span> БОРОДА</li>
+                  <li class="portfolio__options"><span class="portfolio__options--img-mustache"></span> УСЫ</li>
+                </ul>
+              </div>
             </div>
-            <div class="portfolio__winston">
+            <div class="portfolio__winston portfolio__item">
               <img class="portfolio__img-4" src="img/photo-4-mobile.jpg" alt="Фото стрижки" width="280" height="176" />
-              <b class="portfolio__name">Винстон Синий</b>
-              <p class="portfolio__review">Как только заростаю и волосы начинают мешать видеть — бегом в Бородинский!</p>
-              <ul class="portfolio__list">
-                <li class="portfolio__options"><span class="portfolio__options--img-scissors"></span> СТРИЖКА</li>
-              </ul>
+              <div class="portfolio-description__container">
+                <b class="portfolio__name">Винстон Синий</b>
+                <p class="portfolio__review">Как только заростаю и волосы начинают мешать видеть — бегом в Бородинский!</p>
+                <ul class="portfolio__list">
+                  <li class="portfolio__options"><span class="portfolio__options--img-scissors"></span> СТРИЖКА</li>
+                </ul>
+              </div>
             </div>
           </section>
         </div>
